@@ -1,0 +1,89 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-Ua-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme generator</title>
+  <style>
+    .meme-generator {
+      margin: 20px auto;
+      width: 400px;
+      font-family: sans-serif;
+    }
+
+    .meme-generator label {
+      display: block;
+      font-family: monospace;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .meme-generator input {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    #meme {
+      width: 100%;
+    }
+    
+    .header {
+      margin-top: 35px;
+      height: 100px;
+      font-family: monospace;
+    }
+    
+    .footer {
+      font-family: monospace;
+    }
+    
+    a {
+      color: red 
+    }
+    
+    a:hover {
+      color: blue
+    }
+    
+    .instructions {
+      font-family: monospace;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+
+  </style>    
+</head>
+
+
+<body>
+  <div class = "header">
+    <h2><center>Justpinoythings</center></h2>
+  </div>
+  <div class="meme-generator">
+    <label>Select an Image</label>
+    <input type="file" id="imageFileInput" />
+
+    <label>Caption (Press Enter to insert text. To delete, remove text and press enter)</label>
+    <input type="text" id="TextInput"/>
+
+    <canvas id="meme"></canvas>
+  </div>
+  <script src="script.js"></script>
+  
+  <div class = "instructions">
+    <b><center>For mobile users, screenshot. For desktop users, right click image and click "Save image as..." to download</center></b>
+  </div>
+  
+  <br>
+  
+  <div class="footer">
+    <center>Initial code from <a href="https://www.youtube.com/watch?v=io5FcMAdLyQ&t=3s&ab_channel=dcode">dcode.</a></center>
+    <center>Customized by <a href="https://ceejmartinez.crd.co/">Ceej</a>.</center>
+    <center>I do not make any money off from this. use for personal use <b>ONLY</b>.</center>
+    <br>
+    <center><b><i>I do not endorse any use of this website for oppression, injustice, or hate.</b></i></center>
+  </div>
+</body>
